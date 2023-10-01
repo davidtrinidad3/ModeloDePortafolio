@@ -1,0 +1,137 @@
+
+
+
+section.hobbies{
+   height: 22rem; 
+}
+
+.hobbies__title{
+    font-size: 2rem;
+    text-align: center;
+    margin: 70px 0 25px;
+}
+
+.hobbies__line{
+    display: flex;
+    margin-left: 438px;
+    margin-top: 50px;
+
+}
+
+.hobbies__box{
+    display: flex;
+    box-shadow: #505050a1 6px 5px 10px 0px;
+    height: 11rem;
+    width: 10.5rem;
+    margin-right: 70px;
+    background-color: #ffffff;
+    align-items: flex-end;
+    transition: .18s all;
+}
+
+.hobbies__box:hover{
+    transform: scale(1.05);
+}
+
+.hobbies__items{
+    margin: 0 0 12px 15px;
+    padding: 0;
+}
+
+.hobbies__name{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    margin-top: 8px;
+}
+
+.hobbies__img__paseo{
+    display: flex;
+    height: 40px;
+}
+
+.hobbies__img__items{
+    height: 29px;
+}
+
+.hobbies__img__ejercisio{
+    display: flex;
+    height: 40px;
+}
+
+@media (max-width: 768px){
+
+    section.hobbies {
+        width: 1320px;
+        height: 34rem;
+    }
+
+    .hobbies__line{
+        flex-wrap: wrap;
+        margin-left: 210px;
+    }
+
+    .hobbies__box{
+        width: 25rem;
+        margin: 0 100px 50px 0;
+    }
+
+    .hobbies__items{
+        font-size: 1.6rem;
+    }
+
+    .hobbies__img__items{
+        height: 3rem;
+    }
+
+}
+
+/*mobile*/
+
+@media (max-width: 426px){
+
+    section.hobbies {
+        width: 1320px;
+        height: 100rem;
+    }
+
+    .hobbies__title {
+        font-size: 4rem;
+        padding: 70px 0 25px;
+        margin: 0;
+    }
+
+    .hobbies__line {
+        flex-direction: column;
+        margin: 80px 0 0 310px;
+    }
+
+    .hobbies__box {
+        width: 45rem;
+        height: 20rem;
+        margin: 0 100px 150px 0;
+    }
+
+    .hobbies__items {
+        font-size: 2.9rem;
+    }
+
+    .hobbies__img__items {
+        height: 6rem;
+        margin: 0 0 40px 530px;
+    }
+
+    .hobbies__img__ejercisio {
+        height: initial;
+    }
+
+    .hobbies__img__paseo {
+        height: initial;
+    }
+
+    .hobbies__name {
+        
+        margin: 10px 0 20px 100px;
+        text-decoration: overline;
+    }
+
+}

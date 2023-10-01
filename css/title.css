@@ -1,0 +1,104 @@
+section.title{
+    display: flex;
+
+}
+
+.title__div{
+    display: flex;
+}
+
+.title__profile{
+   position: absolute;
+   width: 350px;
+   height: 350px;
+   margin: 75px 0 0 1030px;
+}
+
+.title__container{
+   margin: 80px 0 10px 100px;
+}
+
+.title__bio{
+    font-size: 3.7rem;
+    margin-top: 6rem;
+}
+
+.title__subsection{
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-size: 1.35rem;
+}
+
+.title__network{
+    display: flex;
+    margin: 50px 0 20px 100px;
+}
+
+.title__network__item{
+    margin-right: 200px;
+    font-weight: 600;
+}
+
+@media (max-width: 768px){
+
+    .title__container{
+        margin: 70px 0 30px 50px;
+    }
+
+    .title__profile{
+        margin: 120px 0 0 990px;
+        width: 280px;
+        height: 280px;
+    }
+
+    .title__subsection{
+        font-size: 1.45rem;
+    }
+
+    .title__network{
+        padding: 0;
+    }
+
+    .title__network__item{
+        width: 6.7rem;
+    font-size: 1.35rem;
+    }
+}
+
+/*mobile*/
+
+@media (max-width: 426px){
+    .title{
+        width: 1320px;
+    }
+
+    .title__profile {
+        margin: 80px 0 0 460px;
+        width: 400px;
+        height: 400px;
+    }
+
+    .title__container {
+        margin: 500px 0 30px 50px;
+    }
+
+    .title__bio {
+        font-size: 5.2rem;
+    }
+
+    .title__subsection {
+        font-size: 3.7rem;
+    }
+
+    .title__network__item {
+        width: 13rem;
+        font-size: 2.5rem;
+    }
+
+    .title__imagen__items{
+        height: 1.2rem;
+    }
+
+}
+
+

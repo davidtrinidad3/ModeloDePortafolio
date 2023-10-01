@@ -1,0 +1,149 @@
+section.experience{
+margin: 0;
+height: 47rem;
+}
+
+.experience__section__title{
+    text-align: center;
+    font-size: 2rem;
+    margin: 0;
+    padding-top: 4rem;
+}
+
+.experience__box{
+    margin: 100px 0 0 440px;
+}
+
+.experience__img{
+    box-shadow: #505050a1 6px 5px 10px 0px;
+    width: 64%;
+    height: 19.1rem;
+}
+
+.experience__info-container{
+    margin: 50px 0 0 211px;
+}
+
+.experience__text{
+    margin-left: 2.25rem;
+}
+
+.experience__description{
+    margin-left: 0.75rem;
+}
+
+.experiencia__botao--repo{
+    border-radius: 8px;
+    height: 2.2rem;
+    width: 6rem;
+    background-color: #66789aa6;
+    cursor: pointer;
+}
+
+.experience__botao--demo{
+    margin-left: 1rem;
+    border-radius: 8px;
+    height: 2.2rem;
+    width: 5.5rem;
+    background-color: #aa9b9b70;
+    cursor: pointer;
+}
+
+.experiencia__botao--repo:hover, .experience__botao--demo:hover {
+    transform: scale(1.1);
+    transition: 0.5s all;
+}
+
+/*Tablet*/
+@media (max-width: 768px){
+
+    section.experience{
+        width: 1320px;
+    }
+
+    .experience__box {
+        margin: 100px 0 0 340px;
+    }
+
+    .experience__title{
+        font-size: 1.6rem;
+    }
+
+    .experience__text {
+        margin-left: 2rem;
+        font-size: 1.35rem;
+    }
+
+    .experiencia__botao--repo{
+        height: 2.7rem;
+        width: 8rem;
+        font-size: 1.2rem;
+    }
+
+    .experience__botao--demo{
+        height: 2.7rem;
+        width: 7.5rem;
+        font-size: 1.2rem;
+    }
+
+    .experience__description {
+        margin-left: -0.8rem;
+    }
+
+}
+
+/*mobile*/
+
+@media (max-width: 426px){
+    section.experience {
+        width: 1320px;
+        height: 76rem;
+    }
+
+    .experience__section__title {
+        text-align: center;
+        font-size: 4rem;
+        margin: 0;
+        padding-top: 6rem;
+    }
+
+    .experience__box {
+        margin: 100px 0 0 100px;
+    }
+
+    .experience__img {
+        width: 94%;
+        height: 33.5rem;
+    }
+
+    .experience__info-container {
+        margin: 50px 0 0 350px;
+    }
+
+    .experience__title {
+        font-size: 3.25rem;
+    }
+
+    .experience__text {
+        margin-left: 6rem;
+        font-size: 2.35rem;
+    }
+
+    .experience__description {
+        margin-left: -1rem;
+    }
+
+    .experiencia__botao--repo {
+        height: 5.5rem;
+        width: 14rem;
+        font-size: 1.8rem;
+    }
+
+    .experience__botao--demo {
+        height: 5.5rem;
+        width: 14.5rem;
+        font-size: 1.8rem;
+        margin-left: 4rem;
+    }
+
+}

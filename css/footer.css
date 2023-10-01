@@ -1,0 +1,42 @@
+section.footer{
+    height: 7rem;
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+}
+
+.footer__rodape{
+    padding-top: 2rem;
+}
+
+.footer__rodape__parrafo1{
+    margin: 0;
+}
+
+.footer__rodape__parrafo2{
+    margin: 10px 0 0 0;
+}
+
+/*Tablet*/
+@media (max-width: 768px){
+    section.footer{
+        width: 1320px;
+        font-size: 1.5rem;
+    }
+}
+
+/*mobile*/
+
+@media (max-width: 426px){
+
+    section.footer {
+        height: 20rem;
+        font-size: 3.4rem;
+    }
+
+    .footer__rodape {
+        padding-top: 6rem;
+    }
+
+}
